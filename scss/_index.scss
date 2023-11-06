@@ -1,0 +1,605 @@
+
+
+.section-1{
+
+    background-image: url(../assets/bg-title.jpg);
+
+    height: 30rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow-x: hidden;
+
+   
+    
+
+
+    .article-1{
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+        .h1-titulo{
+
+            font-family: $fuente_h1;
+            font-size: 120px;
+            color: map-get($colores , color-prinicpal );
+            border: 1px solid black;
+            padding-left: 1rem;
+            
+            box-shadow: 0px 0px 28px 0px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 0px 0px 28px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 0px 28px 0px rgba(0,0,0,0.75);
+
+            background-color: rgba(255, 255, 255, 0.534);
+
+        }
+
+        
+
+
+    }
+
+
+    
+
+}
+
+.section-2{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    overflow-x: hidden;
+
+    .article-2{
+
+        display: flex;
+        justify-content: center;
+
+       
+
+        .p-index{
+
+            font-family: $fuente_texto;
+
+            margin-top: 1rem;
+            color: rgb(141, 0, 0);
+
+            font-size: 16px;
+            text-align: center;
+
+        }
+        
+
+    }
+
+    // Ajustando el carrusel de boostrap
+
+.carrusel-style{
+
+    height: 25rem;
+    width: 40rem;
+    
+    padding: 1rem;
+
+    border-right: 3px solid map-get($colores , color-border );
+    border-left: 3px solid map-get($colores , color-border );
+
+    margin-bottom: 2rem;
+
+    overflow-x: hidden;
+    
+
+}
+
+    
+
+}
+
+.section-3{
+
+    display: flex;
+    justify-content: center;   
+    margin-bottom: 3rem;
+
+
+    overflow-x: hidden;
+
+    
+
+   
+
+    .article-3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 3rem;
+
+        border-top: 3px solid map-get($colores , color-prinicpal );
+        padding-top: 2rem;
+
+        .h2-horarios{
+
+            font-family: $fuente_texto;
+
+        }
+
+
+
+    }
+
+    .article-4{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        border-top: 3px solid map-get($colores , color-prinicpal );
+        padding-top: 2rem;
+
+
+        .h2-contacto{
+            font-family: $fuente_texto;
+
+        }
+
+
+
+    }
+
+}
+
+// Diseño responsive del index
+
+
+@media (max-width: 320px) {
+    
+    .section-1{
+
+        padding-top: 10rem;
+
+        .article-1{
+
+            .h1-titulo{
+                
+                
+                font-size: 34px;
+            }
+
+        }
+
+        
+
+
+        
+
+    }
+
+    .section-2{
+
+        .carrusel-style{
+
+            width: 15rem;
+            height: 10rem;
+
+        }
+
+    }
+
+    .section-3{
+
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        
+
+        .article-3{
+            
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+
+           
+
+        }
+
+        
+    }
+
+}
+
+
+
+@media (min-width:321px) and (max-width:390px) {
+    
+    .section-1{
+
+        padding-top: 10rem;
+
+        .article-1{
+
+            .h1-titulo{
+                
+                
+                font-size: 50px;
+            }
+
+        }
+
+               
+
+    }
+
+    .section-2{
+
+        overflow-x: hidden;
+
+        .carrusel-style{
+
+            width: 25rem;
+            height: 15rem;
+
+        }
+
+    }
+
+    .section-3{
+
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        
+
+        .article-3{
+            
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+
+           
+
+        }
+
+        
+    }
+
+
+}
+
+@media (min-width:391px) and (max-width:420px) {
+
+    .section-1{
+
+        padding-top: 10rem;
+
+        
+
+        .article-1{
+
+            .h1-titulo{
+                
+                
+                font-size: 50px;
+            }
+
+        }
+
+               
+
+    }
+
+    .section-2{
+
+        overflow-x: hidden;
+
+        .carrusel-style{
+
+            width: 25rem;
+            height: 15rem;
+
+        }
+
+    }
+
+    .section-3{
+
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        
+
+        .article-3{
+            
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+
+           
+
+        }
+
+        
+    }
+}
+
+@media (min-width:421px) and (max-width:480px) {
+    
+    .section-1{
+
+        padding-top: 10rem;
+
+        .article-1{
+
+            .h1-titulo{
+                
+                
+                font-size: 60px;
+            }
+
+        }
+
+               
+
+    }
+
+    .section-2{
+
+        overflow-x: hidden;
+
+        .carrusel-style{
+
+            width: 29rem;
+            height: 18rem;
+
+        }
+
+    }
+
+    .section-3{
+
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        
+
+        .article-3{
+            
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+
+           
+
+        }
+
+        
+    }
+
+
+}
+
+@media (min-width:481px) and (max-width:520px) {
+    
+    .section-1{
+
+        padding-top: 10rem;
+
+        .article-1{
+
+            .h1-titulo{
+                
+                
+                font-size: 65px;
+            }
+
+        }
+
+               
+
+    }
+
+    .section-2{
+
+        overflow-x: hidden;
+
+        .carrusel-style{
+
+            width: 31rem;
+            height: 18rem;
+
+        }
+
+    }
+
+    .section-3{
+
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        
+
+        .article-3{
+            
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+
+           
+
+        }
+
+        
+    }
+
+}
+
+@media (min-width:521px) and (max-width:650px) {
+
+    .section-1{
+
+       
+
+        .article-1{
+
+            .h1-titulo{
+                
+                
+                font-size: 75px;
+            }
+
+        }
+
+               
+
+    }
+
+    .section-2{
+
+        overflow-x: hidden;
+
+        .carrusel-style{
+
+            width: 35rem;
+            height: 20rem;
+
+        }
+
+    }
+
+    .section-3{
+
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        
+
+        .article-3{
+            
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+
+           
+
+        }
+
+        
+    }
+
+    
+}
+
+@media (min-width:651px) and (max-width:730px) {
+
+    .section-1{
+
+       
+
+        .article-1{
+
+            .h1-titulo{
+                
+                
+                font-size: 80px;
+            }
+
+        }
+
+               
+
+    }
+
+    .section-2{
+
+        overflow-x: hidden;
+
+        .carrusel-style{
+
+            width: 40rem;
+            height: 23rem;
+
+        }
+
+    }
+
+    
+
+}
+
+@media (min-width:731px) and (max-width:800px) {
+    
+    .section-1{
+
+       
+
+        .article-1{
+
+            .h1-titulo{
+                
+                
+                font-size: 90px;
+            }
+
+        }
+
+               
+
+    }
+
+    .section-2{
+
+        overflow-x: hidden;
+
+        .carrusel-style{
+
+            width: 45rem;
+            height: 26rem;
+
+        }
+
+    }
+
+}
+
+@media (min-width:801px) and (max-width:860px) {
+    
+    .section-1{
+
+       
+
+        .article-1{
+
+            .h1-titulo{
+                
+                
+                font-size: 100px;
+            }
+
+        }
+
+               
+
+    }
+
+    .section-2{
+
+        overflow-x: hidden;
+
+        .carrusel-style{
+
+            width: 48rem;
+            height: 28rem;
+
+        }
+
+    }
+
+}
+
+

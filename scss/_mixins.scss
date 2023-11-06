@@ -1,0 +1,16 @@
+@mixin card($width, $height, $color, $border_radius){
+
+
+height: $height;
+width: $width;
+border-radius: $border_radius;
+background-color: $color;
+
+
+
+
+box-shadow: 2px -1px 15px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px -1px 15px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px -1px 15px 0px rgba(0,0,0,0.75);
+
+}

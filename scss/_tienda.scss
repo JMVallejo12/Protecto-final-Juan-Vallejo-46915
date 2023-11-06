@@ -1,0 +1,245 @@
+.section-1-shop{
+    padding-top: 10rem;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+
+    .article-1-shop{
+
+        // Se trabaja la tienda solo con flex para evitar usar grids
+        
+        display: flex;
+        flex-wrap: wrap;
+        
+        width: 80%;
+        
+        
+        justify-content: center;
+
+        .card-shop{
+            display: flex;
+            flex-direction: column;
+            
+
+            .button-container{
+
+                display: flex;
+                padding-bottom: 0.8rem;
+                
+
+                .btn-shop{
+
+                    padding: 0.3rem;
+                    margin-left: 2rem;
+
+                    font-family: $fuente_texto;
+
+                    border: 1px solid map-get($colores , color-border );
+                    border-radius: 10px;
+
+                    transition: 0.3s;
+
+                    &:hover{
+
+                        background-color: map-get($colores , color-prinicpal );
+                        color: white;
+
+                    }
+
+                }
+
+            }
+
+            .img-container{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                border-bottom: 1px solid black;
+                height: 65%;
+
+                .img-card{
+                    
+                    width:250px;
+
+                }
+
+                .img-card-vitamin{
+
+                    width: 160px;
+                    height: 270px;
+                }
+
+                .img-card-bar-whey{
+
+                    padding: 0.6rem;
+
+                }
+
+                .img-card-mancuerna-1{
+
+                    height: 90%;
+                    width: 80%;
+                    padding-top: 1rem;
+
+                }
+
+                .img-card-pesa-rusa{
+
+                    height: 90%;
+                    padding-top: 2rem;
+
+                }
+
+                .img-card-c4{
+
+                    padding: 1.3rem;
+
+                }
+
+                .img-card-guantes{
+
+                    padding: 2rem;
+                    
+                    
+
+                }
+                
+
+            }
+
+            .text-container{
+
+                display: flex;
+                flex-direction: column;
+                padding-left: 2rem;
+                padding-top: 0.8rem;
+                
+
+                .h2-card{
+
+                    font-family: $fuente_h1;
+
+                    
+                }
+
+                .h3-card{
+                    font-family: $fuente_texto;
+                    color: map-get($colores , color-precio );
+
+
+                }
+
+                .h4-card{
+
+                    font-family: $fuente_texto;
+                    font-size: 16px;
+
+                }
+
+
+            }
+            
+            margin-left: 1rem;
+            margin: 1rem;
+            @include card(350px,500px,none, 25px)
+
+            
+            
+
+
+        }
+
+    }
+
+    .h1-shop{
+
+        font-family: $fuente_h1;
+        font-size: 65px;
+        color: map-get($colores , color-prinicpal );
+
+    }
+
+}
+
+
+@media (max-width: 320px) {
+    
+        
+   
+    .section-1-shop{
+
+        padding-top: 13rem;
+        overflow-x: hidden;
+
+    }
+
+    .card-shop{
+
+        // Le cambio solo a esta imagen porque fue la unica que se me cambio, a las otras les intenté cambiar la resolucion y no me las cambio
+        .img-card-bar-whey{
+
+            height: 250px;
+
+        }
+
+        
+
+    }
+   
+    
+
+    
+
+
+}
+
+
+@media (min-width:321px) and (max-width:390px){
+
+    .section-1-shop{
+
+        padding-top: 13rem;
+        overflow-x: hidden;
+
+    }
+
+
+}
+
+
+@media (min-width:391px) and (max-width:420px){
+
+
+    .section-1-shop{
+
+        padding-top: 13rem;
+        overflow-x: hidden;
+
+    }
+
+}
+
+@media (min-width:421px) and (max-width:480px){
+
+    .section-1-shop{
+
+        padding-top: 13rem;
+        overflow-x: hidden;
+
+    }
+
+
+}
+
+@media (min-width:481px) and (max-width:520px){
+
+
+    .section-1-shop{
+
+        padding-top: 13rem;
+        overflow-x: hidden;
+
+    }
+
+}

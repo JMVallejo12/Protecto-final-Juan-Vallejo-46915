@@ -1,0 +1,19 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+@import "variables";
+@import "mixins";
+@import "maps";
+@import "grids";
+@import "header";
+@import "footer";
+@import "tienda";
+@import "personalizado";
+@import "membresia";
+@import "instalaciones";
+@import "index";

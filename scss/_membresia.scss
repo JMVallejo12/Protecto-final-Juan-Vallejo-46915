@@ -1,0 +1,295 @@
+.section-1-membresia{
+
+    padding-top: 10rem;
+
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .article-1-membresia{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        
+
+        width: 50%;
+
+        .h1-membresia{
+
+            font-family: $fuente_h1;
+            color: map-get($colores , color-prinicpal );
+            border-bottom: 2px solid map-get($colores , color-border );
+
+        }
+
+        .p-1-membresia{
+
+            font-family: $fuente_texto;
+            font-size: 18px;
+
+        }
+
+    }
+
+    .article-2-membresia{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+
+        
+
+        width: 50%;
+
+        .h2-membresia{
+
+            font-family: $fuente_h1;
+            color: map-get($colores , color-prinicpal );
+            border-bottom: 2px solid map-get($colores , color-border );
+
+        }
+
+        .li-style-membresia{
+
+            font-family: $fuente_texto;
+
+
+        }
+
+        .p-1-membresia{
+
+            font-family: $fuente_texto;
+            font-size: 18px;
+
+        }
+
+    }
+
+
+    
+
+    
+
+
+
+
+
+}
+
+
+.section-2-membresia{
+
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+
+
+    .article-form{
+
+        width: 35%;
+        
+
+        padding: 2rem;
+        
+
+        .h2-form{
+
+            font-family: $fuente_h1;
+            color: map-get($colores , color-prinicpal );
+            border-bottom: 2px solid map-get($colores , color-border );
+            font-size: 24px;
+            text-align: center;
+
+        }
+
+        .form-container{
+
+            display: flex;
+            flex-direction: column;
+            
+            
+
+            .label-style-form{
+
+                font-family: $fuente_texto;
+
+            }
+
+            .input-style-form{
+
+                border-radius: 8px;
+                height: 35px;
+                padding-left: 0.6rem;
+                border: 1px solid black;
+                margin-bottom: 0.7rem;
+               
+
+            }
+
+
+            .btn-container-form{
+
+                display: flex;
+                justify-content: center;
+                padding-top: 0.6rem;
+
+                
+
+                width: 100%;
+
+                .btn-form{
+
+                    width: 30%;
+                    padding: 0.6rem;
+    
+                    border: 1px solid map-get($colores , color-border );
+                    border-radius: 10px;
+
+                    transition: 0.3s;
+
+
+                    &:hover{
+
+                        background-color: map-get($colores , color-prinicpal );
+                        color: white;
+                    }
+    
+                }
+                         
+            }
+
+              
+
+            
+            
+
+        }
+
+    }
+
+}
+
+
+
+
+// Responsive
+
+@media (max-width:520px) {
+    
+    .section-1-membresia{
+
+        padding-top: 15rem;
+
+    }
+
+    .section-2-membresia{
+
+        .article-form{
+
+
+            width: 100%;
+
+            .btn-container-form{
+
+                .btn-form{
+
+                    font-size: 10px;
+                    
+                    
+
+                }
+
+            }
+
+            
+
+        }
+
+    }
+
+
+}
+
+
+@media (min-width:521px) and (max-width:800px) {
+    
+
+
+    .section-1-membresia{
+
+        padding-top: 15rem;
+
+    }
+
+    .section-2-membresia{
+
+        .article-form{
+
+
+            width: 85%;
+
+            
+
+        }
+
+    }
+
+
+}
+
+@media (min-width:801px) and (max-width:920px) {
+    
+
+
+    .section-1-membresia{
+
+        padding-top: 15rem;
+
+    }
+
+    .section-2-membresia{
+
+        .article-form{
+
+
+            width: 70%;
+
+            
+
+        }
+
+    }
+
+
+}
+
+@media (min-width:921px) and (max-width:1200px) {
+    
+
+
+    .section-1-membresia{
+
+        padding-top: 15rem;
+
+    }
+
+    .section-2-membresia{
+
+        .article-form{
+
+
+            width: 50%;
+
+            
+
+        }
+
+    }
+
+
+}

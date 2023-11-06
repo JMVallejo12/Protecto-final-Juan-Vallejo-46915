@@ -1,0 +1,286 @@
+.section-1-personalizado{
+
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 10rem;
+    height: fit-content;
+
+    .h1-personalizado{
+
+        font-family: $fuente_h1;
+        color: map-get($colores , color-prinicpal);
+
+    }
+
+    
+
+    .article-1-cards-container{
+
+        display: flex;
+        flex-direction: column;
+        
+        height: 100%; 
+        
+        
+        
+       
+
+
+        .card-personalizado{
+
+            
+
+            transition: 0.3s;
+            padding: 2rem;
+            margin: 2rem;
+
+            .title-personalizado-container{
+
+                display: flex;
+                justify-content: center;
+
+                width: 100%;
+                
+                .h2-card-personalizado{
+                    
+                    font-family: $fuente_h1;
+                    border-bottom: 2px solid map-get($colores , color-border );
+
+                }
+            }
+
+            .list-personalizado-container{
+
+            
+
+                .li-style-personalizado{
+
+                    font-family: $fuente_texto;
+                    font-size: 18px;
+
+                }
+
+            }
+
+            .precio-container{
+
+                display: flex;
+                justify-content: space-between;
+                
+
+                .h3-precio-personalizado{
+
+                    font-family: $fuente_texto;
+                    color: map-get($colores, color-precio )
+
+                }
+
+                .btn-personalizado{
+
+                    padding: 0.6rem;
+                    border: 1px solid map-get($colores , color-border );
+                    border-radius: 10px;
+
+                }
+
+            }
+
+
+            &:hover{
+
+                cursor: pointer;
+                width: 705px;
+                height: 285px;
+
+                background-color: map-get($colores , color-prinicpal );
+                border: 10px solid map-get($colores, color-border );
+                
+                .li-style-personalizado{
+
+                    color: white;
+                }
+
+                .h3-precio-personalizado{
+
+                    color: white;
+
+                }
+
+                .btn-personalizado{
+
+                    background-color: map-get($colores, color-prinicpal );
+                    border: none;
+                    color: white;
+                    
+
+                }
+            
+            }
+
+            
+            @include card (700px, 280px, none, 20px)
+
+            
+
+        }
+
+
+    }
+
+}
+
+
+// Diseño responsive
+
+@media (max-width: 465px) {
+    
+   .section-1-personalizado{
+
+    padding-top: 15rem;
+
+    .h1-personalizado{
+
+        text-align: center;
+
+    }
+
+    
+
+    overflow-x: hidden;
+
+        .article-1-cards-container{
+
+
+            .card-personalizado{
+
+                
+
+                
+
+                height: fit-content;
+                width: fit-content;
+
+                &:hover{
+
+                    height: fit-content;
+                    width: fit-content;
+                    
+                }
+
+
+            }
+
+        }
+
+   }
+
+
+}
+
+
+@media (min-width:466px) and (max-width:560px){
+
+    .section-1-personalizado{
+
+
+        .article-1-cards-container{
+
+           
+            
+
+
+            .card-personalizado{
+
+                height: fit-content;
+                width: 90%;
+
+
+                &:hover{
+
+                    height: fit-content;
+                    width: 90%;
+                    
+                }
+
+            }
+
+        }
+
+    }
+    
+    
+
+}
+
+@media (min-width:561px) and (max-width:650px){
+
+    .section-1-personalizado{
+
+
+        .article-1-cards-container{
+
+           
+            width: 95%;
+
+
+            .card-personalizado{
+
+                height: fit-content;
+                width: 90%;
+
+
+                &:hover{
+
+                    height: fit-content;
+                    width: 90%;
+                    
+                }
+
+            }
+
+        }
+
+    }
+
+
+}
+
+@media (min-width:651px) and (max-width:750px){
+
+
+    .section-1-personalizado{
+
+
+        .article-1-cards-container{
+
+           
+            width: 95%;
+
+
+            .card-personalizado{
+
+                height: fit-content;
+                width: 90%;
+
+
+                &:hover{
+
+                    height: fit-content;
+                    width: 90%;
+                    
+                }
+
+            }
+
+        }
+
+    }
+
+
+
+}
+
+
