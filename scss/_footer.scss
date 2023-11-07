@@ -7,6 +7,8 @@
 
     flex-wrap: wrap;
 
+    grid-area: footer;
+
     
 
     
@@ -20,14 +22,9 @@
         margin-top: 0.25rem;
 
         
+             
+
         
-
-        .icon-color{
-
-            color: white;
-            margin-left: 5rem;
-
-        }
 
     }
 
@@ -39,6 +36,27 @@
         margin-top: 0.4rem;
 
     }
+
+    .icon-color{
+
+        color: white;
+        margin-left: 5rem;
+        
+
+    }
+
+    .icon-color-2{
+
+        margin-right: 5rem;
+        color: white;
+
+    }
+
+        
+
+    
+
+    
 
 }
 

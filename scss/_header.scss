@@ -1,5 +1,7 @@
 .header{
 
+    grid-area: header;
+
       
       
 
@@ -19,6 +21,7 @@
 
         z-index: 99;
 
+        //Estilizando el dropdown de boostrap
         .drop-style{
             display: none;
             
@@ -34,19 +37,24 @@
 
         .container-home{
 
-            .a-home{
+            //Boton con el logo del gimnasio
+            .a-home-main{
 
                 text-decoration: none;
-                color: rgb(204, 201, 201);
+                color: map-get($colores, color-prinicpal );
 
-                font-family: $fuente_texto;
+                font-family: $fuente_h1;
+                font-size: 24px;
 
                 transition: 0.3s;
+
+
                 
+
 
                 &:hover{
 
-                    color: white;
+                    color: map-get($colores , color-border );
                 }
 
             }
@@ -99,14 +107,14 @@
 // Responsive del nav-bar
 
 
-@media (max-width: 560px) {
-    
+@media (max-width: 725px) {
+    // Al solo agregar un dropdown de boostrap al ajustar la resolucion
+    // Solo se tuvo que manejar una media query para el header
     .header{
 
-        .nav-bar{
-            
+        .nav-bar{         
 
-            
+    
 
             .ul-index{
 

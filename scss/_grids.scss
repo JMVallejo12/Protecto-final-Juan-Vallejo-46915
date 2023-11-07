@@ -1,0 +1,19 @@
+.grid-container-membresia{
+
+    display: grid;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 4rem auto auto 35px;
+    grid-template-areas: 
+    
+        "header"
+        "section-1-membresia"
+        "section-2-membresia"
+        "footer"
+    ;
+
+    //Se usa un solo grid para un html porque el proyecto no requiere
+    // el uso de grids, ya que usa flexbox con wrap para el responsive
+    // y hacerlo todo con grid solo me hubiera complicado
+
+}

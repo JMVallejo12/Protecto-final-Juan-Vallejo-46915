@@ -7,7 +7,7 @@
 
     .article-1-shop{
 
-        // Se trabaja la tienda solo con flex para evitar usar grids
+        
         
         display: flex;
         flex-wrap: wrap;
@@ -18,6 +18,7 @@
         justify-content: center;
 
         .card-shop{
+
             display: flex;
             flex-direction: column;
             
@@ -50,7 +51,8 @@
                 }
 
             }
-
+            
+            //Ajustando la resolucion de la foto de los productos
             .img-container{
                 width: 100%;
                 display: flex;
@@ -142,6 +144,8 @@
             
             margin-left: 1rem;
             margin: 1rem;
+
+            //Aplicado mixin para las cards de la tienda
             @include card(350px,500px,none, 25px)
 
             
@@ -157,6 +161,7 @@
         font-family: $fuente_h1;
         font-size: 65px;
         color: map-get($colores , color-prinicpal );
+        border-bottom: 3px solid map-get($colores , color-border );
 
     }
 

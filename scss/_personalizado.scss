@@ -8,12 +8,22 @@
     padding-top: 10rem;
     height: fit-content;
 
-    .h1-personalizado{
+    .h1-personalizado-container{
 
-        font-family: $fuente_h1;
-        color: map-get($colores , color-prinicpal);
+        width: 60%;
+
+        .h1-personalizado{
+
+            font-family: $fuente_h1;
+            color: map-get($colores , color-prinicpal);
+            text-align: center;
+            border-bottom: 3px solid map-get($colores , color-border );
+            
+        }
+
 
     }
+    
 
     
 
@@ -28,7 +38,7 @@
         
        
 
-
+        // Tarjetas de los planes personalizados usando mixins
         .card-personalizado{
 
             
@@ -120,7 +130,7 @@
             
             }
 
-            
+            // Mixin para generar las tarjetas de planes
             @include card (700px, 280px, none, 20px)
 
             

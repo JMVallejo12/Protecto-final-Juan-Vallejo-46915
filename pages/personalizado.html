@@ -26,7 +26,7 @@
         <nav class="nav-bar" id="nav">
 
             <div class="container-home">
-                <a class="a-home" href="../index.html">INICIO</a>
+                <a class="a-home-main" href="../index.html">SOLO PESAS!</a>
 
             </div>
 
@@ -62,14 +62,18 @@
     </header>
 
 
+    <!-- Secccion para el titulo y los planes -->
+    <section class="section-1-personalizado" id="top">
+        <div class="h1-personalizado-container">
+            <!-- Titulo principal -->
+            <h1 class="h1-personalizado">ENTRENAMIENTOS PERSONALIZADOS</h1>
+        </div>
+        
 
-    <section class="section-1-personalizado">
-
-        <h1 class="h1-personalizado">ENTRENAMIENTOS PERSONALIZADOS</h1>
-
+        <!-- Arituculo contenedor de las cards -->
         <article class="article-1-cards-container">
 
-            <div class="card-personalizado">
+            <div class="card-personalizado" data-aos="fade-right">
                 
                 <div class="title-personalizado-container">
                     <h2 class="h2-card-personalizado">PLAN MONKEY</h2>
@@ -92,7 +96,7 @@
 
             </div>
 
-            <div class="card-personalizado">
+            <div class="card-personalizado" data-aos="fade-left">
                 <div class="title-personalizado-container">
                     <h2 class="h2-card-personalizado">PLAN ORANGUTAN</h2>
                 </div>
@@ -112,7 +116,7 @@
 
             </div>
 
-            <div class="card-personalizado">
+            <div class="card-personalizado" data-aos="fade-right">
                 <div class="title-personalizado-container">
                     <h2 class="h2-card-personalizado">PLAN GORILA</h2>
                 </div>
@@ -132,7 +136,7 @@
 
             </div>
 
-            <div class="card-personalizado">
+            <div class="card-personalizado" data-aos="fade-left">
 
                 <div class="title-personalizado-container">
                     <h2 class="h2-card-personalizado">PLAN CBUM</h2>
@@ -153,7 +157,8 @@
 
             </div>
 
-            <div class="card-personalizado">
+
+            <div class="card-personalizado" data-aos="fade-right">
 
                 <div class="title-personalizado-container">
                     <h2 class="h2-card-personalizado">PLAN DEVASTACIÓN</h2>
@@ -169,7 +174,7 @@
                 </div>
 
                 <div class="precio-container">
-                    <h3 class="h3-precio-personalizado">$625</h3>
+                    <h3 class="h3-precio-personalizado">$1200</h3>
                     <button type="submit" class="btn-personalizado">COMPRAR</button>
                 </div>
 
@@ -192,7 +197,13 @@
         <!-- Footer con redes sociales -->
 <footer class="footer">
 
-    <p class="p-footer">@Copyright Empresapp Software Development Group 2023</p>
+    <!-- Boton para subir hasta arriba y copyright -->
+    <ul class="ul-footer">
+        <li><a href="#top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-bar-up icon-color-2" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M8 10a.5.5 0 0 0 .5-.5V3.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 3.707V9.5a.5.5 0 0 0 .5.5zm-7 2.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5z"/>
+        </svg></a></li>
+        <li class="p-footer">@Copyright Empresapp Software Development Group 2023</li>
+      </ul>
 
     <ul class="ul-footer">
       <!-- Canal de twitch -->
@@ -217,6 +228,9 @@
     
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
