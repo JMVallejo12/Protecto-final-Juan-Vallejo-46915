@@ -12,6 +12,10 @@
 
         width: 60%;
 
+        // Se trato de corregir un error que el borde de abajo
+        // excede por mucho el ancho del titulo pero no se puedo
+        // solucionar
+
         .h1-personalizado{
 
             font-family: $fuente_h1;

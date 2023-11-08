@@ -859,5 +859,15 @@
     height: 28rem;
   }
 }
+.error {
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.error .h1-error {
+  font-family: "Roboto Mono", monospace;
+  font-size: 48px;
+}
 
 /*# sourceMappingURL=styles.css.map */

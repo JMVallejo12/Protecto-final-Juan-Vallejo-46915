@@ -6,6 +6,9 @@
 
 }
 
+
+
+
 @import "variables";
 @import "mixins";
 @import "maps";
@@ -17,3 +20,25 @@
 @import "membresia";
 @import "instalaciones";
 @import "index";
+
+// Manejando el error 404
+
+.error{
+
+    height: 20rem;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    .h1-error{
+
+        font-family: $fuente_h1;
+        font-size: 48px;
+
+    }
+    
+    
+
+}
